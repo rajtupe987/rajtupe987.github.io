@@ -153,24 +153,29 @@ body {
 .home {
   display: flex;
   
-  /* display: grid;
+   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: -50px; */
+  gap: -50px; 
   justify-content: space-between;
   align-items: center;
-  /* align-items: flex-end; */
-  /* border: solid red; */
+  align-items: flex-end; 
+   
 }
-
+#home{
+  border: solid rgb(216, 142, 216) 2px;
+  margin-top: 10px;
+}
 .home-content{
   margin-left: 10%;
+ 
   /* border: solid red; */
 }
 
 
 .home-img{
-  width: 50%;
-  margin-left: 50%
+  width: 60%;
+  margin-left: 40%;
+  margin-bottom: 15%;
   
   /* border: solid red; */
    
@@ -247,12 +252,12 @@ span {
   
 /*  */
 .hero-bg { display: none; } 
-/* .home-image { position: relative; } */
+.home-image { position: relative; } */
 
-/* .home-image .home-img {
+ .home-image .home-img {
   max-width: max-content;
   margin-inline: auto;
-} */
+} 
 
 
 .home .shape {
@@ -326,7 +331,7 @@ span {
     margin-bottom: 5rem;
   }
   .skills-container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -439,8 +444,12 @@ span {
   }
   .projectlinks {
     display: flex;
+   
   }
+  .projectlinks>a>i{
 
+    margin-top: 15px;
+  }
   .project-title{
     color: rgb(0, 0, 0);
   }
@@ -490,11 +499,13 @@ span {
   
   .grid-list {
     display: grid;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
    
   }
-  
+  .grid-list>img{
+    width: 1px;
+  }
   .skills-card {
     background-color: var(--bg-oxford-blue);
     border: 1px solid var(--border-prussian-blue);
@@ -578,6 +589,7 @@ span {
   margin-bottom: 70px;
 }
 #resume-button-2 {
+
   list-style: none;
 }
 
@@ -657,6 +669,20 @@ span {
       width: 80%;
     }
 
+    .home-content{
+      margin-left: 5%;
+     
+      /* border: solid red; */
+    }
+    
+    
+    .home-img{
+      width: 20%;
+      margin-left: 20%;
+      
+      /* border: solid red; */
+       
+    }  
 
 
   }
@@ -696,8 +722,8 @@ span {
   font-size: 5rem;
 }
 .home-img {
-  width: 70vw;
-  margin-top: 4rem;
+  width: 40vw;
+  margin-top: 1rem;
 }
 .about {
   flex-direction: column-reverse;
