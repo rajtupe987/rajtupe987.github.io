@@ -19,16 +19,16 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active')
 };
 
-// // *=============================== github calendar ==================================
-// GitHubCalendar(".calendar", "RajTupe");
-
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "RajTupe", { responsive: true });
-
-// *=============================== github calender ==================================
+// *=============================== github calendar ==================================
 GitHubCalendar(".calendar", "RajTupe");
 
 // or enable responsive functionality:
+GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+
+//*=============================== github calender ==================================
+GitHubCalendar(".calendar", "RajTupe");
+
+//or enable responsive functionality:
 GitHubCalendar(".calendar", "RajTupe", { responsive: true });
 
 
@@ -166,14 +166,14 @@ const typed = new Typed('.multiple-text', {
 
 
 
-GitHubCalendar(".calendar", "rajtupe987");
+// GitHubCalendar(".calendar", "rajtupe987");
 
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
+// // or enable responsive functionality:
+// GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
 
-// Use a proxy
-GitHubCalendar(".calendar", "rajtupe987", {
-   proxy (username) {
-     return fetch(`https://your-proxy.com/github?user=${username}`)
-   }
-});
+// // Use a proxy
+// GitHubCalendar(".calendar", "rajtupe987", {
+//    proxy (username) {
+//      return fetch(`https://your-proxy.com/github?user=${username}`)
+//    }
+// });
