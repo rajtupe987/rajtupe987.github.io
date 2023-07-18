@@ -166,14 +166,14 @@ const typed = new Typed('.multiple-text', {
 
 
 
-// GitHubCalendar(".calendar", "rajtupe987");
+GitHubCalendar(".calendar", "rajtupe987");
 
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
 
-// // Use a proxy
-// GitHubCalendar(".calendar", "rajtupe987", {
-//    proxy (username) {
-//      return fetch(`https://your-proxy.com/github?user=${username}`)
-//    }
-// });
+// Use a proxy
+GitHubCalendar(".calendar", "rajtupe987", {
+   proxy (username) {
+     return fetch(`https://your-proxy.com/github?user=${username}`)
+   }
+});
