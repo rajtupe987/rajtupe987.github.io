@@ -162,7 +162,6 @@ section {
 
 .home {
   display: flex;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: -50px;
@@ -389,15 +388,6 @@ span {
   height: 300px;
   width: 30%;
   margin-top: 80px;
-}
-
-
-@media screen and(min-width:299px) and (max-width:499px){
-  #about>div {
-    display: none;
-  }
-
-
 }
 
 
@@ -887,9 +877,7 @@ span {
   }
 
   #home {
-    height: 15%;
-    border: solid rgb(216, 142, 216) 2px;
-    margin-top: 2px;
+    height: 6%;
   }
 
   .home-content {
@@ -1185,8 +1173,8 @@ span {
   }
 }
 
-@media (max-width: 365px) {
-    .home {
+@media (max-width: 700px){
+  .home {
     display: block; /* Change to block-level display for mobile */
     text-align: center;
   }
@@ -1225,6 +1213,10 @@ span {
   .home-img img {
     width: 90vw;
   }
+}
+
+@media (max-width: 365px) {
+    
 
   .footer {
     flex-direction: column-reverse;
