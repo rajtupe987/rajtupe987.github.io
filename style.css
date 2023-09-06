@@ -801,22 +801,22 @@ span {
 }
 
 
-#call{
+#contact-phone{
   display: flex;
  gap: 10px;
  margin-left: 35%;
 }
-#call>img{
+#contact-phone>img{
   width: 5%;
   gap: 10px;
 }
-#Email{
+#contact-email{
   display: flex;
   gap: 10px;
   margin-left: 35%;
   
 }
-#Email>img{
+#contact-email>img{
   width: 5%;
 }
 #location>img{
