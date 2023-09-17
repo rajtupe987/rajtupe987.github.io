@@ -19,7 +19,7 @@ GitHubCalendar(".calendar", "rajtupe987", { responsive: true }); // Display GitH
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/1aIx7oXswHginslfjiUfM6fRxb4gcTBjX/view?usp=sharing",
+        "https://drive.google.com/file/d/1O15-fxRCRd_tpGKXuWbVdo89xg6SFDWD/view?usp=sharing",
         "_blank"
       );
     }

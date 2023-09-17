@@ -436,26 +436,6 @@ span {
   line-height: 1.5; /* Adjust line height for spacing */
 }
 
-/* .heading {
-    text-align: center;
-    font-size: 5.5rem;
-  }
-  
-  
-  .about-content h3 {
-    text-align: left;
-    line-height: 2;
-  }
-  .about-content h3 {
-    font-size: 3rem;
-  }
-  .about-content p {
-    font-size: 2rem;
-    line-height: 2;
-    margin: 1.5rem 0 3rem;
-    text-align: left;
-  }
-   */
 
 /*-----------------------------------*\
     #SKILSS 
@@ -469,7 +449,7 @@ span {
 
 
 .skills-container {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -506,8 +486,39 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
+ 
 
 
+/* tools section */
+
+.tools-part>h2{
+   margin-top: 50px;
+}
+.tools-part>#grid-tools{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#grid-tools>div{
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+  height: 80px;
+  width: 20%;
+   background-color: rgb(32, 32, 32);
+  align-items: center;
+  justify-content: center;
+}
+#grid-tools>div:hover {
+  border-color: blue;
+  transform: scale(1.02);
+}
+
+.tools-part>#grid-tools>div>p{
+  margin-top: 7px;
+  font-size: 20px;
+}
 /*-----------------------------------*\
     #Projects
   \*-----------------------------------*/
@@ -689,6 +700,9 @@ span {
   font-size: 1.5rem;
   margin-top: 50px;
 }
+.contact_me>div>img{
+  margin-right: 50px;
+}
 
 .contact_me>p>a>span {
   text-decoration: underline;
@@ -698,10 +712,6 @@ span {
 
 .contact_me>div {
   margin-top: 20px;
-}
-
-.contact_me>p {
-  margin-bottom: 20px;
 }
 
 
@@ -961,7 +971,8 @@ span {
   .about-content>p {
     font-size: 16px; /* You can adjust this value as needed */
     margin-top: 15px; /* Adjust margin for spacing */
-    text-align: center; /* Center-align text */
+    text-align: justify;
+    line-height: 1.3; /* Center-align text */
   }
 
   /* Adjust the styling for the about_algorithm section */
@@ -1105,6 +1116,13 @@ span {
     align-items: center; /* Center-align items */
     text-align: center;
     padding: 20px; /* Add padding for spacing on mobile */
+    border: 2px solid white;
+  }
+  #contact>div{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
   }
 
   #contact>img {
@@ -1151,7 +1169,7 @@ span {
 
   .project-link:hover i {
     color: var(--bg-carolina-blue);
-    transition: color 0.3s ease-in, background-color 0.3s ease-in,
+    transition: color 0.3s ease-in, background-color 0.3s ease-in,    
       border-color 0.3s ease-in;
     scale: 110%;
     transform: translate3d(0px, -8px, 0px);
@@ -1171,14 +1189,51 @@ span {
   .contact form .input-box input {
     width: 100%;
   }
+  .tools-part>h2{
+    margin-top: 50px;
+ }
+ .tools-part>#grid-tools{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+   align-items: center;
+   align-content: center;
+ }
+ 
+ #grid-tools>div{
+   display: flex;
+   gap: 10px;
+   border-radius: 20px;
+   height: 80px;
+   width: 50%;
+    background-color: rgb(32, 32, 32);
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+ }
+
+
+ .tools-part>#grid-tools>div>p{
+   margin-top: 5px;
+   font-size: 18px;
+ }
+
 }
 
 @media (max-width: 700px){
   .home {
     display: block; /* Change to block-level display for mobile */
     text-align: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: -20px;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
   }
-
+ 
   .home-content {
     margin-left: 0; /* Remove left margin for center alignment */
   }
