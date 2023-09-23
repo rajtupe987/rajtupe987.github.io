@@ -171,7 +171,7 @@ section {
 
 .home-content {
   margin-left: 10%;
-
+  height: auto;
   /* border: solid red; */
 }
 
@@ -930,7 +930,7 @@ span {
   .divider {
     width: 70%;
     /* You can adjust this value as needed */
-    margin: 20px auto;
+    margin: 10px auto;
     /* Adjust margin for spacing */
   }
 
@@ -981,10 +981,12 @@ span {
     top: 100%;
     left: 0;
     width: 100%;
+    /* padding: ; */
     background: var(--bg-oxford-blue);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
+
   }
 
   #nav-menu.active {
@@ -996,11 +998,20 @@ span {
   }
 
   #nav-menu a {
+    width: 17%;
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    margin-left: 25px;
+  }
+
+  #nav-menu a {
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
     margin-left: 20px;
-  }
+  } 
+
 
   .header {
     position: fixed;
@@ -1054,7 +1065,7 @@ span {
 
   .divider {
     width: 70%;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 
   #grid-tools>div {
@@ -1137,40 +1148,7 @@ span {
     width: 90vw;
   }
 
-  #menu-icon {
-    display: block;
-
-  }
-
-  #nav-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    /* padding: ; */
-    background: var(--bg-oxford-blue);
-    border-top: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    display: none;
-
-  }
-
-  #nav-menu.active {
-    display: block;
-  }
-
-  a.nav-link.skills {
-    padding: 0;
-  }
-
-  #nav-menu a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-    margin-left: 20px;
-  }
-
-
+  
   /* Center align the about content */
   #about>div {
     flex-direction: column;
