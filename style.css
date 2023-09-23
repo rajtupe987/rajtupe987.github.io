@@ -171,7 +171,7 @@ section {
 
 .home-content {
   margin-left: 10%;
-  height: auto;
+
   /* border: solid red; */
 }
 
@@ -930,7 +930,7 @@ span {
   .divider {
     width: 70%;
     /* You can adjust this value as needed */
-    margin: 10px auto;
+    margin: 20px auto;
     /* Adjust margin for spacing */
   }
 
@@ -938,34 +938,24 @@ span {
     padding: 2.5%;
   }
 
-
-
-  .home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-
+  #home {
+    margin-top: 20px;
   }
-  
-  
+
   .home-content {
-    margin-left: 10%;
-    height: auto;
+    margin-left: 7%;
+    margin-bottom: 70%;
+
     /* border: solid red; */
   }
-  
-  
+
+
   .home-img {
-    width: 60%;
-    margin-left: 40%;
+    width: 55%;
+    margin-left: 20%;
+    margin-bottom: 80%;
     /* border: solid red; */
-  
-  }
-  
-  
-  .home-img img {
-    width: 10vw;
-    animation: floatImage 4s ease-in-out infinite;
+
   }
 
   #contact>img {
@@ -991,12 +981,10 @@ span {
     top: 100%;
     left: 0;
     width: 100%;
-    /* padding: ; */
     background: var(--bg-oxford-blue);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
-
   }
 
   #nav-menu.active {
@@ -1008,20 +996,11 @@ span {
   }
 
   #nav-menu a {
-    width: 17%;
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-    margin-left: 25px;
-  }
-
-  #nav-menu a {
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
     margin-left: 20px;
-  } 
-
+  }
 
   .header {
     position: fixed;
@@ -1075,7 +1054,7 @@ span {
 
   .divider {
     width: 70%;
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
   #grid-tools>div {
@@ -1158,7 +1137,40 @@ span {
     width: 90vw;
   }
 
-  
+  #menu-icon {
+    display: block;
+
+  }
+
+  #nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    /* padding: ; */
+    background: var(--bg-oxford-blue);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    display: none;
+
+  }
+
+  #nav-menu.active {
+    display: block;
+  }
+
+  a.nav-link.skills {
+    padding: 0;
+  }
+
+  #nav-menu a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    margin-left: 20px;
+  }
+
+
   /* Center align the about content */
   #about>div {
     flex-direction: column;
