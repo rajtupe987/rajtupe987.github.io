@@ -330,7 +330,7 @@ span {
   /* Adjust the height of the divider */
   width: 75%;
   /* Adjust the length of the divider */
-  margin: 10px auto;/
+  margin: 40px auto;/
   /* Center the divider horizontally and add margin for spacing */
 }
 
@@ -377,7 +377,7 @@ span {
 
   height: 300px;
   width: 30%;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 
@@ -388,7 +388,7 @@ span {
   font-size: 35px;
 }
 
-#north_star {
+#north_star{
   display: flex;
   justify-content: center;
   height: 210px;
@@ -397,39 +397,33 @@ span {
   margin: 2px;
 
 }
-
-#north_star>span {
+#north_star>span{
   color: rgb(218, 216, 216);
   font-size: 30px;
 }
-
-#north_star>p {
+#north_star>p{
   margin-top: 6px;
   color: rgb(146, 144, 144);
   font-size: 22px;
 }
-
 #north_star {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: auto;
-  max-width: 800px;
-  /* Set a max width for content */
+  max-width: 800px; /* Set a max width for content */
 }
 
 .section_subtitle {
-  margin-bottom: 10px;
-  /* Add some space below the title */
+  margin-bottom: 10px; /* Add some space below the title */
 }
 
 /* Reset default margin and padding for paragraphs */
 #north_star p {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  /* Adjust line height for spacing */
+  line-height: 1.5; /* Adjust line height for spacing */
 }
 
 
@@ -482,42 +476,39 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
-
+ 
 
 
 /* tools section */
 
-.tools-part>h2 {
-  margin-top: 50px;
+.tools-part>h2{
+   margin-top: 50px;
 }
-
-.tools-part>#grid-tools {
+.tools-part>#grid-tools{
   display: flex;
   gap: 20px;
   width: 100%;
 }
 
-#grid-tools>div {
+#grid-tools>div{
   display: flex;
   gap: 10px;
   border-radius: 20px;
   height: 80px;
   width: 20%;
-  background-color: rgb(32, 32, 32);
+   background-color: rgb(32, 32, 32);
   align-items: center;
   justify-content: center;
 }
-
 #grid-tools>div:hover {
   border-color: blue;
   transform: scale(1.02);
 }
 
-.tools-part>#grid-tools>div>p {
+.tools-part>#grid-tools>div>p{
   margin-top: 7px;
   font-size: 20px;
 }
-
 /*-----------------------------------*\
     #Projects
   \*-----------------------------------*/
@@ -538,11 +529,9 @@ span {
   margin-top: 50px;
   padding: 3%;
 }
-
-.project-container>div:hover {
+.project-container>div:hover{
   border: solid rgb(200, 0, 255) 2px;
 }
-
 .project-container>div>img {
   width: 50%;
   border-radius: 20px;
@@ -685,11 +674,9 @@ span {
   gap: 100px;
 
 }
-
-#contact>img {
+#contact>img{
   width: 27%;
 }
-
 #contact>div>p {
   color: var(--secondary-color);
 }
@@ -697,9 +684,9 @@ span {
 .contact_me {
   color: #fff;
   font-size: 15px;
-
+  
   margin-top: 50px;
-
+  
 }
 
 .contact_me>p>a>span {
@@ -712,7 +699,7 @@ span {
   display: flex;
   width: 100%;
   margin-top: 20px;
-
+  
 }
 
 
@@ -753,7 +740,6 @@ span {
 #github-stats {
   margin-top: 5%;
 }
-
 #resume-button-2 {
 
   list-style: none;
@@ -803,20 +789,17 @@ span {
 }
 
 
-.contact_me>h2 {
-  font-size: 30px;
+.contact_me>h2{
+ font-size: 30px;
 }
-
-.contact_me>p {
+.contact_me>p{
   font-size: 22px;
   color: #878888;
   line-height: 1.5;
 }
-
-#last_logo {
+#last_logo{
   margin-top: 20px;
 }
-
 /* ======== BREAKPOINTS */
 
 @media (max-width: 1200px) {
@@ -824,15 +807,15 @@ span {
     font-size: 55%;
 
   }
-
+  
 }
 
 
 /*  For tabletes screens */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) { 
   #menu-icon {
     display: block;
-
+    
   }
 
   #nav-menu {
@@ -845,7 +828,7 @@ span {
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
-
+    
   }
 
   #nav-menu.active {
@@ -862,12 +845,11 @@ span {
     margin: 3rem 0;
     margin-left: 20px;
   }
-
-  #grid-tools>div {
+  #grid-tools>div{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
   }
-
+  
   .header {
     position: fixed;
     top: 0;
@@ -882,95 +864,82 @@ span {
   }
 
 
-  section {
-    padding: 10rem 3% 2rem;
-  }
-
-  .skills {
-    padding-bottom: 7rem;
-  }
-
-  .project {
-    padding-bottom: 7rem;
-  }
-
-  .contact {
-    min-height: auto;
-  }
-
-  .footer {
-    padding: 2rem 3%;
-  }
-
-  #github-streak-stats {
-    width: 80%;
-  }
-
-  #github-stats-card {
-    width: 80%;
-  }
-
-  #git_hub>a {
-    margin-top: 20px;
-    /* Reduce top margin for spacing */
-    display: flex;
-    flex-direction: column;
-    /* Stack items vertically on mobile */
-    align-items: center;
-    /* Center-align items */
-    gap: 10px;
-    /* Reduce the gap between items */
-  }
-
-  #github-top-langs {
-    width: 50%;
-  }
-
-
-  .divider {
-    width: 70%;
-    /* You can adjust this value as needed */
-    margin: 20px auto;
-    /* Adjust margin for spacing */
-  }
-
-  #grid-tools>div {
-    padding: 2.5%;
-  }
-
-  #home {
-    margin-top: 20px;
-  }
-
-  .home-content {
-    margin-left: 7%;
-    margin-bottom: 70%;
-
-    /* border: solid red; */
-  }
-
-
-  .home-img {
-    width: 55%;
-    margin-left: 20%;
-    margin-bottom: 80%;
-    /* border: solid red; */
-
-  }
-
-  #contact>img {
-    width: 43%;
-  }
-
-  #contact>div:nth-child(2) {
-    margin-top: 90px;
-  }
-
+section {
+  padding: 10rem 3% 2rem;
 }
 
+.skills {
+  padding-bottom: 7rem;
+}
+
+.project {
+  padding-bottom: 7rem;
+}
+
+.contact {
+  min-height: auto;
+}
+
+.footer {
+  padding: 2rem 3%;
+}
+
+#github-streak-stats {
+  width: 80%;
+}
+
+#github-stats-card {
+  width: 80%;
+}
+
+#git_hub>a {
+  margin-top: 20px; /* Reduce top margin for spacing */
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+  align-items: center; /* Center-align items */
+  gap: 10px; /* Reduce the gap between items */
+}
+#github-top-langs {
+  width: 50%;
+}
+
+
+.divider {
+  width: 70%; /* You can adjust this value as needed */
+  margin: 20px auto; /* Adjust margin for spacing */
+}
+#grid-tools>div{
+  padding: 2.5%;
+}
+
+#home{
+  margin-top: 20px;
+}
+.home-content {
+  margin-left: 7%;
+  margin-bottom: 70%;
+
+  /* border: solid red; */
+}
+
+
+.home-img {
+  width: 55%;
+  margin-left: 20%;
+  margin-bottom: 80%;
+  /* border: solid red; */
+
+}
+#contact>img{
+width: 43%;
+}
+#contact>div:nth-child(2){
+  margin-top: 90px;
+}
+
+ }
 /* For mobile screens (up to 767px) */
 @media (max-width: 767px) {
-
   /* Add mobile-specific styles here */
   #menu-icon {
     display: block;
@@ -1071,7 +1040,7 @@ span {
 /* For mobile screens */
 @media (max-width: 767px) {
   .home {
-
+  
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
@@ -1079,67 +1048,51 @@ span {
     align-items: center;
 
   }
+  .home>div:nth-child(2){
 
-  .home>div:nth-child(2) {
-
-    margin-top: 70px;
+     margin-top: 70px;
   }
-
-  .home-image {
+  .home-image{
     margin-top: 50px;
   }
-
   .home-content {
-    margin-left: 0;
-    /* Remove left margin for center alignment */
+    margin-left: 0; /* Remove left margin for center alignment */
   }
 
   .home-img {
-    width: 80%;
-    /* Adjust the width for mobile */
-    margin: 0 auto;
-    /* Center the image */
-    /* Adjust margin for spacing */
+    width: 80%; /* Adjust the width for mobile */
+    margin: 0 auto; /* Center the image */
+/* Adjust margin for spacing */
     border: 1px solid white;
   }
 
   .home-img img {
-    width: 20vw;
-    /* Adjust the image size for mobile */
+    width: 20vw; /* Adjust the image size for mobile */
   }
 
   .home-content h3 {
-    font-size: 2.4rem;
-    /* Adjust font size for mobile */
-    margin-bottom: 1rem;
-    /* Adjust margin for spacing */
+    font-size: 2.4rem; /* Adjust font size for mobile */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
   }
 
   .home-content h1 {
-    font-size: 4.8rem;
-    /* Adjust font size for mobile */
-    margin-bottom: 1rem;
-    /* Adjust margin for spacing */
+    font-size: 4.8rem; /* Adjust font size for mobile */
+    margin-bottom: 1rem; /* Adjust margin for spacing */
   }
 
   .social-media a {
-    width: 3.5rem;
-    /* Adjust the width of social media icons */
-    height: 3.5rem;
-    /* Adjust the height of social media icons */
-    font-size: 1.8rem;
-    /* Adjust font size for mobile */
-    margin: 2rem 1rem 2rem 0;
-    /* Adjust margin for spacing */
+    width: 3.5rem; /* Adjust the width of social media icons */
+    height: 3.5rem; /* Adjust the height of social media icons */
+    font-size: 1.8rem; /* Adjust font size for mobile */
+    margin: 2rem 1rem 2rem 0; /* Adjust margin for spacing */
   }
 
   .home-img img {
     width: 90vw;
   }
-
   #menu-icon {
     display: block;
-
+    
   }
 
   #nav-menu {
@@ -1152,7 +1105,7 @@ span {
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
-
+    
   }
 
   #nav-menu.active {
@@ -1176,75 +1129,58 @@ span {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
-    /* Reduce the gap between elements for smaller screens */
+    gap: 20px; /* Reduce the gap between elements for smaller screens */
   }
 
   /* Reduce the width of the divider */
   .divider {
-    width: 50%;
-    /* You can adjust this value as needed */
-    margin: 20px auto;
-    /* Adjust margin for spacing */
+    width: 50%; /* You can adjust this value as needed */
+    margin: 20px auto; /* Adjust margin for spacing */
   }
 
   /* Adjust the size of images in the about section */
   #about>div>img {
-    width: 80%;
-    /* You can adjust this value as needed */
-    height: auto;
-    /* Maintain aspect ratio */
-    margin-top: 20px;
-    /* Adjust margin for spacing */
+    width: 80%; /* You can adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adjust margin for spacing */
   }
 
   /* Modify the font sizes and spacing for better mobile presentation */
   .about-content>h3 {
-    font-size: 24px;
-    /* You can adjust this value as needed */
-    margin-top: 10px;
-    /* Adjust margin for spacing */
+    font-size: 24px; /* You can adjust this value as needed */
+    margin-top: 10px; /* Adjust margin for spacing */
   }
 
   .about-content>p {
-    font-size: 16px;
-    /* You can adjust this value as needed */
-    margin-top: 15px;
-    /* Adjust margin for spacing */
+    font-size: 16px; /* You can adjust this value as needed */
+    margin-top: 15px; /* Adjust margin for spacing */
     text-align: justify;
-    line-height: 1.3;
-    /* Center-align text */
+    line-height: 1.3; /* Center-align text */
   }
 
   /* Adjust the styling for the about_algorithm section */
   .about-content>#about_algorithm {
-    margin-top: 20px;
-    /* Adjust margin for spacing */
-    flex-direction: column;
-    /* Stack items vertically */
+    margin-top: 20px; /* Adjust margin for spacing */
+    flex-direction: column; /* Stack items vertically */
   }
 
   .about-content>#about_algorithm>div {
-    width: 100%;
-    /* Take up full width */
-    padding: 10px;
-    /* Adjust padding for spacing */
+    width: 100%; /* Take up full width */
+    padding: 10px; /* Adjust padding for spacing */
   }
 
   .about-content>#about_algorithm>div:hover {
-    border: none;
-    /* Remove hover border for smaller screens */
+    border: none; /* Remove hover border for smaller screens */
   }
 
   .about-content>#about_algorithm>div>p {
-    font-size: 14px;
-    /* You can adjust this value as needed */
+    font-size: 14px; /* You can adjust this value as needed */
   }
 
   .about-content>#about_algorithm>div:hover {
     border: 0.1px solid rgb(242, 58, 255);
   }
-
+  
   .skills h2 {
     margin-bottom: 3rem;
   }
@@ -1264,108 +1200,83 @@ span {
   }
 
   .project h2 {
-    margin-bottom: 2rem;
-    /* Reduce margin for spacing */
+    margin-bottom: 2rem; /* Reduce margin for spacing */
   }
 
   .project-container>div {
-    flex-direction: column;
-    /* Stack items vertically on mobile */
-    gap: 20px;
-    /* Reduce the gap between items */
+    flex-direction: column; /* Stack items vertically on mobile */
+    gap: 20px; /* Reduce the gap between items */
     border: solid rgb(165, 165, 165) 2px;
-    margin-top: 20px;
-    /* Reduce top margin for spacing */
+    margin-top: 20px; /* Reduce top margin for spacing */
     padding: 3%;
   }
 
   .project-container>div>img {
-    width: 100%;
-    /* Take up full width */
+    width: 100%; /* Take up full width */
     border-radius: 20px;
   }
 
   .project-container>div>div>h3 {
-    font-size: 20px;
-    /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
   }
 
   .project-container>div>div>p {
-    margin-top: 10px;
-    /* Reduce top margin for spacing */
-    font-size: 16px;
-    /* Adjust font size */
+    margin-top: 10px; /* Reduce top margin for spacing */
+    font-size: 16px; /* Adjust font size */
     color: rgb(208, 206, 206);
   }
 
   .project-container>div>div>h5 {
-    margin-top: 10px;
-    /* Reduce top margin for spacing */
-    font-size: 14px;
-    /* Adjust font size */
+    margin-top: 10px; /* Reduce top margin for spacing */
+    font-size: 14px; /* Adjust font size */
     color: rgb(208, 206, 206);
   }
 
   .project-container>div>div>h5>span {
-    font-size: 16px;
-    /* Adjust font size */
+    font-size: 16px; /* Adjust font size */
   }
-
   .project-container>div>div>div {
-    margin-top: 20px;
-    /* Reduce top margin for spacing */
+    margin-top: 20px; /* Reduce top margin for spacing */
   }
 
   .project-container>div>div>div>a {
-    font-size: 28px;
-    /* Adjust font size */
+    font-size: 28px; /* Adjust font size */
   }
 
   .project-container>div>div>div {
     display: flex;
-    flex-direction: column;
-    /* Stack items vertically */
-    gap: 10px;
-    /* Reduce the gap between items */
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Reduce the gap between items */
   }
 
   .project-container>div>div>div>button {
     color: white;
     background-color: rgb(179, 52, 162);
-    width: 60%;
-    /* Adjust button width */
+    width: 60%; /* Adjust button width */
     padding: 9px;
     border-radius: 6px;
     text-align: center;
-    margin: 0 auto;
-    /* Center align the button */
+    margin: 0 auto; /* Center align the button */
   }
 
   .project-container>div>div>div>button>a>i {
-    font-size: 18px;
-    /* Adjust font size */
+    font-size: 18px; /* Adjust font size */
   }
 
   .project-container>div>div>div>button>a {
     color: white;
-    font-size: 18px;
-    /* Adjust font size */
+    font-size: 18px; /* Adjust font size */
   }
 
 
   #git_hub>a {
-    margin-top: 20px;
-    /* Reduce top margin for spacing */
+    margin-top: 20px; /* Reduce top margin for spacing */
     display: flex;
-    flex-direction: column;
-    /* Stack items vertically on mobile */
-    align-items: center;
-    /* Center-align items */
-    gap: 10px;
-    /* Reduce the gap between items */
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center-align items */
+    gap: 10px; /* Reduce the gap between items */
   }
-
-  #git_hub>a>img {
+  #git_hub>a>img{
     width: 80%;
   }
 
@@ -1375,58 +1286,45 @@ span {
     align-items: center;
     text-align: center;
     margin: auto;
-    max-width: 90%;
-    /* Adjust the maximum width for better mobile responsiveness */
-    padding: 20px;
-    /* Add padding for spacing on mobile */
+    max-width: 90%; /* Adjust the maximum width for better mobile responsiveness */
+    padding: 20px; /* Add padding for spacing on mobile */
   }
 
   #north_star>span {
-    font-size: 24px;
-    /* Adjust font size for the heading */
+    font-size: 24px; /* Adjust font size for the heading */
   }
 
   #north_star>p {
-    margin-top: 10px;
-    /* Adjust margin for spacing */
-    font-size: 18px;
-    /* Adjust font size for the paragraph */
+    margin-top: 10px; /* Adjust margin for spacing */
+    font-size: 18px; /* Adjust font size for the paragraph */
   }
 
 
   /* for contact section */
   #contact {
-    height: auto;
-    /* Adjust height for content-based height */
+    height: auto; /* Adjust height for content-based height */
     display: flex;
-    flex-direction: column;
-    /* Stack items vertically on mobile screens */
-    align-items: center;
-    /* Center-align items */
+    flex-direction: column; /* Stack items vertically on mobile screens */
+    align-items: center; /* Center-align items */
     text-align: center;
-    gap: 10px;
+    gap: 16px;
   }
-
-  #contact>div>h1 {
+  
+  #contact>div>h1{
     font-size: 25px;
   }
 
   #contact>img {
-
-    width: 50%;
-    /* Adjust width for mobile */
-    margin-top: 50px;
-    /* Adjust margin for spacing */
+  
+    width: 50%; /* Adjust width for mobile */
+    margin-top: 60px; /* Adjust margin for spacing */
   }
-
-  #contact>div {
-    margin-bottom: 40px;
+  #contact>div{
+    margin-bottom: 20px;
   }
-
   #contact>div>p {
     color: var(--secondary-color);
-    font-size: 16px;
-    /* Adjust font size for the paragraph */
+    font-size: 16px; /* Adjust font size for the paragraph */
   }
 
 
@@ -1435,13 +1333,11 @@ span {
   }
 
   .contact_me>div {
-    margin-top: 10px;
-    /* Adjust margin for spacing */
+    margin-top: 10px; /* Adjust margin for spacing */
   }
 
   .contact_me>p {
-    margin-bottom: 10px;
-    /* Adjust margin for spacing */
+    margin-bottom: 10px; /* Adjust margin for spacing */
   }
 
   .project-link {
@@ -1451,18 +1347,16 @@ span {
   }
 
   #contact-linkedin i {
-    margin-right: 20px;
-    /* Adjust margin for spacing */
+    margin-right: 20px; /* Adjust margin for spacing */
   }
 
   #contact-github i {
-    margin-right: 20px;
-    /* Adjust margin for spacing */
+    margin-right: 20px; /* Adjust margin for spacing */
   }
 
   .project-link:hover i {
     color: var(--bg-carolina-blue);
-    transition: color 0.3s ease-in, background-color 0.3s ease-in,
+    transition: color 0.3s ease-in, background-color 0.3s ease-in,    
       border-color 0.3s ease-in;
     scale: 110%;
     transform: translate3d(0px, -8px, 0px);
@@ -1472,7 +1366,6 @@ span {
   .contact_me>div>a>i {
     transform: translate3d(0px, -4px, -4px);
   }
-
   html {
     font-size: 50%;
   }
@@ -1480,37 +1373,35 @@ span {
   .contact form .input-box input {
     width: 100%;
   }
-
-  .tools-part>h2 {
+  .tools-part>h2{
     margin-top: 50px;
-  }
-
-  .tools-part>#grid-tools {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-  }
-
-  #grid-tools>div {
-    display: flex;
-    gap: 10px;
-    border-radius: 20px;
-    height: 80px;
-    width: 50%;
+ }
+ .tools-part>#grid-tools{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+   align-items: center;
+   align-content: center;
+ }
+ 
+ #grid-tools>div{
+   display: flex;
+   gap: 10px;
+   border-radius: 20px;
+   height: 80px;
+   width: 50%;
     background-color: rgb(32, 32, 32);
-    align-items: center;
-    justify-content: center;
-    padding: 2px;
-  }
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+ }
 
 
-  .tools-part>#grid-tools>div>p {
-    margin-top: 5px;
-    font-size: 18px;
-  }
+ .tools-part>#grid-tools>div>p{
+   margin-top: 5px;
+   font-size: 18px;
+ }
 
 
 }
@@ -1519,3 +1410,4 @@ span {
 .calender {
   margin: 20px;
 }
+
