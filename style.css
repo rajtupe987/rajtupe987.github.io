@@ -938,24 +938,34 @@ span {
     padding: 2.5%;
   }
 
-  #home {
-    margin-top: 20px;
-  }
 
+
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+  }
+  
+  
   .home-content {
-    margin-left: 7%;
-    margin-bottom: 70%;
-
+    margin-left: 10%;
+    height: auto;
     /* border: solid red; */
   }
-
-
+  
+  
   .home-img {
-    width: 55%;
-    margin-left: 20%;
-    margin-bottom: 80%;
+    width: 60%;
+    margin-left: 40%;
     /* border: solid red; */
-
+  
+  }
+  
+  
+  .home-img img {
+    width: 10vw;
+    animation: floatImage 4s ease-in-out infinite;
   }
 
   #contact>img {
