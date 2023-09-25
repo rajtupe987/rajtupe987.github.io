@@ -807,7 +807,7 @@ span {
 
 
 /*  For tabletes screens */
-@media (min-width: 768px) and (max-width: 1000px) { 
+@media (min-width: 768px) and (max-width: 1023px) { 
   #menu-icon {
     display: block;
     
@@ -818,16 +818,18 @@ span {
     top: 100%;
     left: 0;
     width: 100%;
-    /* padding: ; */
     background: var(--bg-oxford-blue);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    display:block
-    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
   }
 
   #nav-menu.active {
-    display: block;
+    max-height: 600px;
   }
 
   a.nav-link.skills {
@@ -960,7 +962,7 @@ width: 43%;
   }
 
   #nav-menu.active {
-    display: block;
+    max-height: 600px;
   }
 
   a.nav-link.skills {
@@ -1103,11 +1105,14 @@ width: 43%;
     top: 100%;
     left: 0;
     width: 100%;
-    /* padding: ; */
     background: var(--bg-oxford-blue);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
     
   }
 
