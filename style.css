@@ -1049,6 +1049,7 @@ width: 43%;
 
 /* For mobile screens */
 @media (max-width: 767px) {
+
   #home{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
