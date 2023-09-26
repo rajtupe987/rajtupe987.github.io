@@ -812,7 +812,6 @@ span {
     display: block;
     
   }
-
   #about>div{
     padding: 2%;
   }
@@ -845,7 +844,7 @@ span {
   #nav-menu a {
     display: block;
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 2rem 0;
     margin-left: 20px;
   }
   #grid-tools>div{
@@ -1050,7 +1049,7 @@ width: 43%;
 
 /* For mobile screens */
 @media (max-width: 767px) {
-  .home{
+  #home{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
