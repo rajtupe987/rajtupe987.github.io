@@ -813,6 +813,12 @@ span {
     
   }
 
+  #about>div{
+    padding: 2%;
+  }
+  #about>div>img{
+    margin-top: 30%;
+  }
   #nav-menu {
     position: absolute;
     top: 100%;
@@ -972,8 +978,8 @@ width: 43%;
   #nav-menu a {
     display: block;
     font-size: 2rem;
-    margin: 3rem 0;
-    margin-left: 20px;
+
+
   }
 
   .header {
@@ -1044,13 +1050,10 @@ width: 43%;
 
 /* For mobile screens */
 @media (max-width: 767px) {
-  .home {
-  
+  #home{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
-
-    align-items: center;
 
   }
   .home>div:nth-child(2){
@@ -1067,8 +1070,7 @@ width: 43%;
   .home-img {
     width: 80%; /* Adjust the width for mobile */
     margin: 0 auto; /* Center the image */
-/* Adjust margin for spacing */
-    border: 1px solid white;
+
   }
 
   .home-img img {
@@ -1164,6 +1166,7 @@ width: 43%;
     margin-top: 15px; /* Adjust margin for spacing */
     text-align: justify;
     line-height: 1.3; /* Center-align text */
+    padding: 2.2%;
   }
 
   /* Adjust the styling for the about_algorithm section */
